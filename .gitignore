@@ -1,0 +1,24 @@
+# Dependencies and build/test output
+node_modules/
+coverage/
+dist/
+*.tgz
+*.tsbuildinfo
+
+# Pi sessions, local configuration, credentials and test artifacts
+.pi/
+.pi-intercom/
+.credentials/
+.env
+.env.*
+!.env.example
+*.token
+*.pem
+*.key
+*.log
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
